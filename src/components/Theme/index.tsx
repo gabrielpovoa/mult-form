@@ -34,7 +34,7 @@ export const Theme = ({ children }: Props) => {
                         />
                         <SidebarItem
                             title="Contacts"
-                            description="How to find you"
+                            description="How can we find you"
                             icon="mail"
                             path="/step3"
                             active={state.currentStep === 3}
