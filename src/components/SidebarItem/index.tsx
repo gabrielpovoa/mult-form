@@ -33,6 +33,9 @@ const SidebarItem = ({ title, description, icon, path, active }: Props) => {
                     {icon === 'mail' &&
                         <span>🦚</span>
                     }
+                    {icon === 'information' &&
+                        <span>🐓</span>
+                    }
                 </IconArea>
 
                 <Point active={active}></Point>

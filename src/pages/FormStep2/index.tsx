@@ -49,7 +49,7 @@ export const Step2 = () => {
   return (
     <Theme>
       <Container>
-        <p>Step 2/3</p>
+        <p>Step {state.currentStep}/4</p>
         <h1>{state.name}, What is the best description of you right now?</h1>
         <p>Select an option that matches you</p>
 
@@ -69,7 +69,6 @@ export const Step2 = () => {
           selected={state.level === 1}
           onClick={() => setLevel(1)}
         />
-
 
         <button 
           onClick={handleBackStep}

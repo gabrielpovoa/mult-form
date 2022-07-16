@@ -35,7 +35,7 @@ export const Step1 = () => {
   return (
     <Theme>
       <Container>
-        <p>Step {state.currentStep}/3</p>
+        <p>Step {state.currentStep}/4</p>
         <h1>Let's start with your name</h1>
         <p>Fill out the following field with your full name.</p>
 

@@ -23,11 +23,17 @@ export const Step3 = () => {
   }, [])
 
   const handleFinishStep = () => {
-    if(state.email && state.github !== '') {
-      console.log(state)
-    } else {
-      alert('You need to fill the below field before finish')
-    }
+
+    setTimeout(() => {
+      if(state.email && state.github !== '') {
+        console.log(state)
+        navigate('/step4')
+      } else {
+        alert('You need to fill the below field before finish')
+      }
+    }, 2000);
+
+    
   }
 
   const handleBackStep = () => {
